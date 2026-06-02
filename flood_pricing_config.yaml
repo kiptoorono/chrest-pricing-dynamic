@@ -1,0 +1,38 @@
+file_name: FLOOD_PRICING_SHEET.xlsx
+
+window_size: 14
+
+table_columns:
+  rolling: G
+  events: L
+  start_date: Q
+  end_date: V
+  duration: AA
+  length_tracking: AF
+  block_max: AK
+  complete_series: AP
+  year: AU
+  per_event_loss: AV
+  annual_summary: BA
+
+regions:
+  Bura:
+    threshold: 721
+    attachment: 721
+    exhaustion: 3517
+  Galole:
+    threshold: 723
+    attachment: 723
+    exhaustion: 3498
+  Garsen:
+    threshold: 1723
+    attachment: 1723
+    exhaustion: 7265
+
+sheets:
+  Flood_Data_Sheet-KE:
+    header_row: 1
+    data_cols: [0, 1, 2, 3]
+  2026:
+    header_row: 1
+    data_cols: [0, 1, 2, 3]
